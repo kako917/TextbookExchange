@@ -12,9 +12,9 @@
   <aside>
     <h3>マイページ</h3>
     <ul>
-      <!--li><a href="">マイページ</li-->
-      <li><a href = "content.jsp">あげる</li>
-      <!--li><a href="">ログアウト</li--> 
+      <li><a href="">マイページ</li>
+      <li><a href = "UploadText">あげる</a></li>
+      <li><a href="">ログアウト</li> 
     </ul>
   </aside>
 </html>
