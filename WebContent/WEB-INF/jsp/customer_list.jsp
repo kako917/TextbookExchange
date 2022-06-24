@@ -24,9 +24,9 @@ public void jspInit() {
 
   </body>
   <aside>
-    <h3>マイページ</h3><hr>
+    <h3>教科書フリマ</h3><hr>
     <ul>
-      <a href="">マイページ</a>
+      <a href = "GetText">教科書を受け取る</a>
       <a href = "UploadText">教科書をあげる</a>
       <a href="LoginServlet">ログアウト</a>
     </ul>
@@ -37,6 +37,7 @@ public void jspInit() {
       <th>メアド</th>
       <th>教科書の名前</th>
       <th>教科書の概要</th>
+      <th>教科書の画像</th>
     </tr>
     
     <%
