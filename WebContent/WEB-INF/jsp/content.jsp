@@ -8,8 +8,8 @@
   </head>
   <body>
     <div class="wrapper">
-      <h2>譲る教科書をアップロード</h2>
-      <form action="<%=request.getContextPath() %>/UploadText">
+         <h2>教科書をアップロード</h2>
+      <form action="/CustomerManagement/UploadText" method="post">
  				<table style="margin:0 auto">
  					<tr>
  						<td style="width:60">名前</td>
@@ -33,8 +33,13 @@
  					</tr>
  					<tr>
  						<td colspan=2 style="text-align:center">
- 							<input type="submit" value="登録">
+ 							<button type="submit" class="btn btn-primary">送信</button>
  						</td>
+ 					</tr>
+ 					<tr>
+ 					    <td>
+                            <a href = "MainServlet">戻る</a>
+ 					    </td>
  					</tr>
  				</table>
  			</form>
@@ -62,9 +67,9 @@
         </div>
         <input type="submit" class="button" value="送信">
       </form-->
-      <div>
+      <!--div>
          <a href = "MainServlet">戻る</a>
-     </div>
+     </div-->
     </div><!-- /.wrapper -->
 
   </body>
