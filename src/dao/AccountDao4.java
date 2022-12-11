@@ -12,11 +12,11 @@ public class AccountDao4 {
 		//DBconfig.propertiesの各値をlist形式で取得
 
 		//DBconfig.propertiesのurlを取得
-		String url = "jdbc:mysql://localhost/customer_control_db?useSSL=false&serverTimezone=Japan";
+		String url = "";
 		//DBconfig.propertiesのuserを取得
-		String db_user_name = "root";
+		String db_user_name = "";
 		//DBconfig.propertiesのpasswordを取得
-		String db_password = "Mango0824";
+		String db_password = "";
 
 		String sql = "insert into aboutbook values(?, ?, ? ,?)";
 		
