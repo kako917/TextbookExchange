@@ -60,11 +60,11 @@ public class MainServlet extends HttpServlet {
 	
 	private void getDB(HttpServletRequest request) {
 		//DBconfig.propertiesのurlを取得
-				String url = "jdbc:mysql://localhost/customer_control_db?useSSL=false&serverTimezone=Japan";
+				String url = "";
 				//DBconfig.propertiesのuserを取得
-				String db_user_name = "root";
+				String db_user_name = "";
 				//DBconfig.propertiesのpasswordを取得
-				String db_password = "Mango0824";
+				String db_password = "";
 
 				String sql = "select * from aboutbook";
 				
